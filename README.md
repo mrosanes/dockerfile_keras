@@ -2,7 +2,8 @@
 Dockerfile for creation of containers with conda environment and keras
 
 This dockerfile allows to create an image, which can be used to create docker containers with:
-- Python3
+- Python3 (optionally python2: now commented)
 - A conda environment named 'keras'
-- The Taurus dependencies
-- Keras library
+- taurus dependencies
+- keras library
+- sklearn library
